@@ -1,0 +1,57 @@
+# SPIDER FORWARD WALK - Diagonal Trot Gait
+# ==========================================
+# Joint index map (4 legs x 3 joints = 12 total):
+#   Hips (swing fwd/back) -> [0]=leg1(FL)  [1]=leg2(FR)  [2]=leg3(RL)  [3]=leg4(RR)
+#   Mids (lift up/down)   -> [4]=leg1      [5]=leg2      [6]=leg3      [7]=leg4
+#   Tips (curl/extend)    -> [8]=leg1      [9]=leg2      [10]=leg3     [11]=leg4
+#
+# Trot gait - two diagonal pairs alternate:
+#   Pair A = leg1 (front-left) + leg4 (rear-right)
+#   Pair B = leg2 (front-right) + leg3 (rear-left)
+#
+# TUNING: flip hip signs if robot walks backward, increase mid angles for higher steps
+
+# ========== STAND UP ==========
+# First, bring all hips to neutral
+drive_multiple_joints([0, 1, 2, 3], [-20, 20, -20, 20], 0.3)
+# Push mid joints DOWN to lower legs onto the ground
+drive_multiple_joints([4, 5, 6, 7], [70, 70, 70, 70], 0.8)
+# Extend tips to plant feet firmly
+drive_multiple_joints([8, 9, 10, 11], [-20, -20, -20, -20], 0.4)
+
+# ========== CYCLE 1 ==========
+# Lift pair A + swing hips (A forward, B pushes body)
+drive_multiple_joints([0, 1, 2, 3, 4, 7, 8, 11], [-10, 30, -30, 10, 50, 50, -10, -10], 0.25)
+# Plant pair A
+drive_multiple_joints([4, 7, 8, 11], [70, 70, -20, -20], 0.2)
+# Lift pair B + swing hips (B forward, A pushes body)
+drive_multiple_joints([0, 1, 2, 3, 5, 6, 9, 10], [-30, 10, -10, 30, 50, 50, -10, -10], 0.25)
+# Plant pair B
+drive_multiple_joints([5, 6, 9, 10], [70, 70, -20, -20], 0.2)
+
+# ========== CYCLE 2 ==========
+drive_multiple_joints([0, 1, 2, 3, 4, 7, 8, 11], [-10, 30, -30, 10, 50, 50, -10, -10], 0.25)
+drive_multiple_joints([4, 7, 8, 11], [70, 70, -20, -20], 0.2)
+drive_multiple_joints([0, 1, 2, 3, 5, 6, 9, 10], [-30, 10, -10, 30, 50, 50, -10, -10], 0.25)
+drive_multiple_joints([5, 6, 9, 10], [70, 70, -20, -20], 0.2)
+
+# ========== CYCLE 3 ==========
+drive_multiple_joints([0, 1, 2, 3, 4, 7, 8, 11], [-10, 30, -30, 10, 50, 50, -10, -10], 0.25)
+drive_multiple_joints([4, 7, 8, 11], [70, 70, -20, -20], 0.2)
+drive_multiple_joints([0, 1, 2, 3, 5, 6, 9, 10], [-30, 10, -10, 30, 50, 50, -10, -10], 0.25)
+drive_multiple_joints([5, 6, 9, 10], [70, 70, -20, -20], 0.2)
+
+# ========== CYCLE 4 ==========
+drive_multiple_joints([0, 1, 2, 3, 4, 7, 8, 11], [-10, 30, -30, 10, 50, 50, -10, -10], 0.25)
+drive_multiple_joints([4, 7, 8, 11], [70, 70, -20, -20], 0.2)
+drive_multiple_joints([0, 1, 2, 3, 5, 6, 9, 10], [-30, 10, -10, 30, 50, 50, -10, -10], 0.25)
+drive_multiple_joints([5, 6, 9, 10], [70, 70, -20, -20], 0.2)
+
+# ========== CYCLE 5 ==========
+drive_multiple_joints([0, 1, 2, 3, 4, 7, 8, 11], [-10, 30, -30, 10, 50, 50, -10, -10], 0.25)
+drive_multiple_joints([4, 7, 8, 11], [70, 70, -20, -20], 0.2)
+drive_multiple_joints([0, 1, 2, 3, 5, 6, 9, 10], [-30, 10, -10, 30, 50, 50, -10, -10], 0.25)
+drive_multiple_joints([5, 6, 9, 10], [70, 70, -20, -20], 0.2)
+
+# Return to standing pose
+drive_multiple_joints([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [-20, 20, -20, 20, 70, 70, 70, 70, -20, -20, -20, -20], 0.3)

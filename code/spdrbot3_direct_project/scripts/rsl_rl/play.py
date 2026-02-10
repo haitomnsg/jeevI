@@ -54,7 +54,7 @@ from rsl_rl.runners import OnPolicyRunner
 from isaaclab.envs import DirectMARLEnv, multi_agent_to_single_agent
 from isaaclab.utils.assets import retrieve_file_path
 from isaaclab.utils.dict import print_dict
-from isaaclab.utils.pretrained_checkpoint import get_published_pretrained_checkpoint
+from isaaclab_tasks.utils import get_checkpoint_path
 
 from isaaclab_rl.rsl_rl import RslRlOnPolicyRunnerCfg, RslRlVecEnvWrapper, export_policy_as_jit, export_policy_as_onnx
 
@@ -77,11 +77,11 @@ def main():
     log_root_path = os.path.join("logs", "rsl_rl", agent_cfg.experiment_name)
     log_root_path = os.path.abspath(log_root_path)
     print(f"[INFO] Loading experiment from directory: {log_root_path}")
+    
+    # Handle checkpoint path
     if args_cli.use_pretrained_checkpoint:
-        resume_path = get_published_pretrained_checkpoint("rsl_rl", task_name)
-        if not resume_path:
-            print("[INFO] Unfortunately a pre-trained checkpoint is currently unavailable for this task.")
-            return
+        print("[INFO] Pre-trained checkpoint functionality not available. Using local checkpoint instead.")
+        resume_path = get_checkpoint_path(log_root_path, agent_cfg.load_run, agent_cfg.load_checkpoint)
     elif args_cli.checkpoint:
         resume_path = retrieve_file_path(args_cli.checkpoint)
     else:
@@ -128,17 +128,32 @@ def main():
         # version 2.2 and below
         policy_nn = ppo_runner.alg.actor_critic
 
+    # Get the normalizer - handle different API versions
+    normalizer = None
+    if hasattr(ppo_runner.alg, 'obs_normalizer'):
+        normalizer = ppo_runner.alg.obs_normalizer
+    elif hasattr(ppo_runner.alg, 'actor_critic') and hasattr(ppo_runner.alg.actor_critic, 'std_normalizer'):
+        normalizer = ppo_runner.alg.actor_critic.std_normalizer
+    else:
+        print("[WARNING] No observation normalizer found. Exporting policy without normalization.")
+
     # export policy to onnx/jit
     export_model_dir = os.path.join(os.path.dirname(resume_path), "exported")
-    export_policy_as_jit(policy_nn, ppo_runner.obs_normalizer, path=export_model_dir, filename="policy.pt")
-    export_policy_as_onnx(
-        policy_nn, normalizer=ppo_runner.obs_normalizer, path=export_model_dir, filename="policy.onnx"
-    )
+    
+    # Export with normalizer if available
+    if normalizer is not None:
+        export_policy_as_jit(policy_nn, normalizer, path=export_model_dir, filename="policy.pt")
+        export_policy_as_onnx(policy_nn, normalizer=normalizer, path=export_model_dir, filename="policy.onnx")
+    else:
+        # Export without normalizer
+        print("[INFO] Exporting policy without observation normalization.")
+        export_policy_as_jit(policy_nn, None, path=export_model_dir, filename="policy.pt")
+        export_policy_as_onnx(policy_nn, normalizer=None, path=export_model_dir, filename="policy.onnx")
 
     dt = env.unwrapped.step_dt
 
     # reset environment
-    obs, _ = env.get_observations()
+    obs, _ = env.reset()
     timestep = 0
     # simulate environment
     while simulation_app.is_running():

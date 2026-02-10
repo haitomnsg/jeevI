@@ -36,6 +36,11 @@ class Spdrbot3Env(DirectRLEnv):
         self._base_id, _ = self._contact_sensor.find_bodies("base_link")
         self._die_body_ids, _ = self._contact_sensor.find_bodies(["arm_a_1_1", "arm_a_2_1", "arm_a_3_1", "arm_a_4_1"])
 
+        self._feet_ids = None
+        # Find feet body indices (after robot & contact sensor exist)
+        self._feet_ids, _ = self._contact_sensor.find_bodies(
+            ["arm_a_1_1", "arm_a_2_1", "arm_a_3_1", "arm_a_4_1"]
+        )
 
         # Logging
         self._episode_sums = {
@@ -49,6 +54,9 @@ class Spdrbot3Env(DirectRLEnv):
                 "dof_acc_l2",
                 "action_rate_l2",
                 "flat_orientation_l2",
+                "foot_contact_l2",
+                "foot_force_var",
+                "base_height",
             ]
         }
 
@@ -98,6 +106,11 @@ class Spdrbot3Env(DirectRLEnv):
         return observations
 
     def _get_rewards(self) -> torch.Tensor:
+
+        # Safety check: feet IDs not ready yet
+        if self._feet_ids is None:
+            return torch.zeros(self.num_envs, device=self.device)
+
         # linear velocity tracking
         lin_vel_error = torch.sum(torch.square(self._commands[:, :2] - self._robot.data.root_lin_vel_b[:, :2]), dim=1)
         lin_vel_error_mapped = torch.exp(-lin_vel_error / 0.25)
@@ -118,6 +131,29 @@ class Spdrbot3Env(DirectRLEnv):
         flat_orientation = torch.sum(torch.square(self._robot.data.projected_gravity_b[:, :2]), dim=1)
         # stationary penalty
         lin_vel_norm = torch.norm(self._robot.data.root_lin_vel_b[:, :2], dim=1)
+        # foot contact penalty (prevents tripod walking)
+        contact_forces = self._contact_sensor.data.net_forces_w_history
+        foot_forces = contact_forces[:, -1, self._feet_ids]
+        foot_contacts = torch.norm(foot_forces, dim=-1) > 1.0
+        num_feet_in_contact = torch.sum(foot_contacts, dim=1)
+        foot_contact_penalty = torch.square(torch.clamp(3 - num_feet_in_contact, min=0))
+
+        # encourage stepping by varying foot forces over time
+        foot_force_magnitudes = torch.norm(foot_forces, dim=-1)  # [num_envs, 4]
+        force_variance = torch.var(foot_force_magnitudes, dim=1)
+
+        # ── BASE HEIGHT REWARD ─────────────────────────────────────────────
+        # Encourage the robot to keep its body elevated above the terrain.
+        # Uses getattr so configs without the field default to 0 (no effect).
+        base_height_scale = getattr(self.cfg, "base_height_reward_scale", 0.0)
+        base_height_target = getattr(self.cfg, "base_height_target", 0.10)
+        if base_height_scale != 0.0:
+            # Height of base above its terrain-origin z (accounts for terrain offset)
+            base_z = self._robot.data.root_pos_w[:, 2] - self._terrain.env_origins[:, 2]
+            height_error = torch.square(base_z - base_height_target)
+            base_height_reward = torch.exp(-height_error / 0.005) * base_height_scale * self.step_dt
+        else:
+            base_height_reward = torch.zeros(self.num_envs, device=self.device)
 
         rewards = {
             "track_lin_vel_xy_exp": lin_vel_error_mapped * self.cfg.lin_vel_reward_scale * self.step_dt,
@@ -128,6 +164,9 @@ class Spdrbot3Env(DirectRLEnv):
             "dof_acc_l2": joint_accel * self.cfg.joint_accel_reward_scale * self.step_dt,
             "action_rate_l2": action_rate * self.cfg.action_rate_reward_scale * self.step_dt,
             "flat_orientation_l2": flat_orientation * self.cfg.flat_orientation_reward_scale * self.step_dt,
+            "foot_contact_l2": foot_contact_penalty * (-0.1) * self.step_dt,
+            "foot_force_var": force_variance * (0.2) * self.step_dt,
+            "base_height": base_height_reward,
         }
         reward = torch.sum(torch.stack(list(rewards.values())), dim=0)
         # Logging
@@ -155,7 +194,9 @@ class Spdrbot3Env(DirectRLEnv):
         self._actions[env_ids] = 0.0
         self._previous_actions[env_ids] = 0.0
         # Sample new commands
-        self._commands[env_ids] = torch.zeros_like(self._commands[env_ids]).uniform_(-1.0, 1.0)
+        self._commands[env_ids, 0] = torch.empty(len(env_ids), device=self.device).uniform_(0.2, 0.4)
+        self._commands[env_ids, 1] = 0.0
+        self._commands[env_ids, 2] = 0.0
         # Reset robot state
         joint_pos = self._robot.data.default_joint_pos[env_ids]
         joint_vel = self._robot.data.default_joint_vel[env_ids]

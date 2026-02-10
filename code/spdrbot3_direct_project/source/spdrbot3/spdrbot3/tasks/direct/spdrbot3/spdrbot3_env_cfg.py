@@ -48,7 +48,7 @@ class EventCfg:
 @configclass
 class Spdrbot3EnvCfg(DirectRLEnvCfg):
     # env
-    episode_length_s = 20.0
+    episode_length_s = 40.0
     decimation = 4
     action_scale = 1
     action_space = 12
@@ -62,8 +62,8 @@ class Spdrbot3EnvCfg(DirectRLEnvCfg):
         physics_material=sim_utils.RigidBodyMaterialCfg(
             friction_combine_mode="multiply",
             restitution_combine_mode="multiply",
-            static_friction=1.0,
-            dynamic_friction=1.0,
+            static_friction=6.0,
+            dynamic_friction=5.0,
             restitution=0.0,
         ),
     )
@@ -74,7 +74,7 @@ class Spdrbot3EnvCfg(DirectRLEnvCfg):
         physics_material=sim_utils.RigidBodyMaterialCfg(
             friction_combine_mode="multiply",
             restitution_combine_mode="multiply",
-            static_friction=1.0,
+            static_friction=6.0,
             dynamic_friction=1.0,
             restitution=0.0,
         ),
@@ -98,12 +98,16 @@ class Spdrbot3EnvCfg(DirectRLEnvCfg):
     robot: ArticulationCfg = SPDRBOT_CFG.replace(prim_path="/World/envs/env_.*/Robot")
 
     # reward scales
-    lin_vel_reward_scale = 5.0  # Increased for more movement reward
+    lin_vel_reward_scale = 8.0  # Increased for more movement reward
     yaw_rate_reward_scale = 0.5
     z_vel_reward_scale = -2.0
     ang_vel_reward_scale = -0.05
     joint_torque_reward_scale = -1e-5  # Reduced punishment
     joint_accel_reward_scale = -1e-7  # Reduced punishment
-    action_rate_reward_scale = -0.01
-    flat_orientation_reward_scale = -5.0
+    action_rate_reward_scale = -0.005
+    flat_orientation_reward_scale = -3.0
     max_tilt_angle_deg = 45.0
+
+    # body height reward (disabled for flat terrain)
+    base_height_reward_scale = 0.0
+    base_height_target = 0.10

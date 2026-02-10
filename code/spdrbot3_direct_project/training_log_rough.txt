@@ -1,0 +1,3124 @@
+Loading user config located at: 'c:/programdata/anaconda3/envs/env_isaaclab/lib/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: c:/programdata/anaconda3/envs/env_isaaclab/lib/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim/5.1/kit_20260208_221643.log
+[0.133s] [ext: omni.kit.async_engine-0.0.3] startup
+[0.268s] [ext: omni.metrics.core-0.0.3] startup
+[0.269s] [ext: omni.client.lib-1.1.0] startup
+[0.283s] [ext: omni.blobkey-1.1.2] startup
+[0.284s] [ext: omni.stats-1.0.1] startup
+[0.285s] [ext: omni.datastore-0.0.0] startup
+[0.287s] [ext: omni.client-1.3.0] startup
+[0.292s] [ext: omni.ujitso.default-1.0.0] startup
+[0.295s] [ext: omni.hsscclient-1.1.2] startup
+[0.302s] [ext: omni.gpu_foundation.shadercache.vulkan-1.0.0] startup
+[0.308s] [ext: omni.assets.plugins-0.0.0] startup
+[0.311s] [ext: omni.gpu_foundation-0.0.0] startup
+[0.332s] [ext: carb.windowing.plugins-1.0.0] startup
+[0.422s] [ext: omni.kit.renderer.init-0.0.0] startup
+[0.423s] [ext: omni.materialx.libs-1.0.7] startup
+[0.436s] [ext: omni.kit.loop-isaac-1.3.7] startup
+[0.438s] [ext: omni.kit.test-2.0.1] startup
+[0.513s] [ext: omni.kit.pipapi-0.0.0] startup
+[0.514s] [ext: omni.usd.config-1.0.6] startup
+[0.522s] [ext: omni.gpucompute.plugins-0.0.0] startup
+[0.524s] [ext: omni.usd.libs-1.0.1] startup
+[0.602s] [ext: omni.kit.pip_archive-0.0.0] startup
+[0.602s] [ext: omni.mdl-56.0.3] startup
+[0.679s] [ext: omni.iray.libs-0.0.0] startup
+[0.707s] [ext: omni.mdl.neuraylib-0.2.12] startup
+[0.714s] [ext: omni.kit.usd.mdl-1.1.5] startup
+[0.797s] [ext: omni.kit.telemetry-0.5.2] startup
+[0.807s] [ext: omni.appwindow-1.1.10] startup
+[0.823s] [ext: omni.kit.renderer.core-1.1.0] startup
+[0.829s] [ext: omni.kit.renderer.capture-0.0.0] startup
+[0.833s] [ext: omni.kit.renderer.imgui-2.0.5] startup
+[0.855s] [ext: omni.ui-2.27.1] startup
+[0.867s] [ext: omni.kit.mainwindow-1.0.3] startup
+[0.869s] [ext: carb.audio-0.1.0] startup
+[0.870s] [ext: omni.uiaudio-1.0.0] startup
+[0.873s] [ext: omni.kit.uiapp-0.0.0] startup
+[0.873s] [ext: omni.usd.schema.metrics.assembler-107.3.1] startup
+[0.878s] [ext: omni.usd.schema.audio-0.0.0] startup
+[0.885s] [ext: omni.usd_resolver-1.0.0] startup
+[0.892s] [ext: omni.usd.core-1.5.3] startup
+[0.893s] [ext: omni.usd.schema.render_settings.rtx-0.0.0] startup
+[0.914s] [ext: omni.usd.schema.semantics-0.0.0] startup
+[0.918s] [ext: omni.usd.schema.geospatial-0.0.0] startup
+[0.922s] [ext: omni.usd.schema.anim-0.0.0] startup
+[0.944s] [ext: omni.usd.schema.omni_lens_distortion-0.0.0] startup
+[0.945s] [ext: isaacsim.robot.schema-3.6.0] startup
+[0.956s] [ext: omni.usd.schema.omnigraph-1.0.0] startup
+[0.964s] [ext: omni.usd.schema.physx-107.3.26] startup
+[0.990s] [ext: omni.usd.schema.omni_sensors-0.0.0] startup
+[0.991s] [ext: omni.usd.schema.omniscripting-1.0.0] startup
+2026-02-08T16:31:44Z [908ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) UHD Graphics 770
+[0.997s] [ext: omni.graph.exec-0.9.6] startup
+2026-02-08T16:31:44Z [910ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) UHD Graphics 770
+[0.998s] [ext: omni.kit.actions.core-1.0.0] startup
+[1.002s] [ext: omni.kit.usd_undo-0.1.8] startup
+[1.002s] [ext: omni.kit.exec.core-0.13.4] startup
+[1.006s] [ext: omni.kit.commands-1.4.10] startup
+[1.037s] [ext: omni.kit.window.popup_dialog-2.0.24] startup
+[1.042s] [ext: omni.activity.core-1.0.3] startup
+[1.045s] [ext: omni.resourcemonitor-107.0.1] startup
+[1.050s] [ext: omni.timeline-1.0.14] startup
+[1.053s] [ext: omni.kit.widget.nucleus_connector-2.0.1] startup
+[1.058s] [ext: usdrt.scenegraph-7.6.1] startup
+[1.113s] [ext: omni.kit.audiodeviceenum-1.0.2] startup
+[1.116s] [ext: omni.hydra.usdrt_delegate-7.5.1] startup
+[1.125s] [ext: omni.hydra.scene_delegate-0.3.4] startup
+[1.128s] [ext: omni.usd-1.13.10] startup
+[1.155s] [ext: omni.kit.asset_converter-5.0.17] startup
+[1.164s] [ext: omni.index.libs-380600.8087.0] startup
+[1.164s] [ext: omni.volume-0.5.2] startup
+[1.171s] [ext: omni.ujitso.client-0.0.0] startup
+[1.172s] [ext: omni.index-1.0.1] startup
+[1.174s] [ext: omni.hydra.rtx.shadercache.vulkan-1.0.0] startup
+[1.176s] [ext: omni.hydra.rtx-1.0.0] startup
+[1.213s] [ext: omni.kit.notification_manager-1.0.10] startup
+[1.216s] [ext: omni.kit.clipboard-1.0.5] startup
+[1.218s] [ext: omni.kit.viewport.legacy_gizmos-1.0.19] startup
+[1.220s] [ext: omni.kit.raycast.query-1.1.0] startup
+[1.223s] [ext: omni.kit.menu.core-1.1.2] startup
+[1.224s] [ext: omni.kit.widget.options_menu-1.1.6] startup
+[1.229s] [ext: omni.kit.helper.file_utils-0.1.9] startup
+[1.231s] [ext: omni.kit.widget.path_field-2.0.11] startup
+[1.232s] [ext: omni.kit.widget.context_menu-1.2.5] startup
+[1.234s] [ext: omni.kit.widget.options_button-1.0.3] startup
+[1.235s] [ext: omni.kit.widget.filebrowser-2.12.3] startup
+[1.245s] [ext: omni.kit.widget.browser_bar-2.0.10] startup
+[1.246s] [ext: omni.kit.usd.layers-2.2.11] startup
+[1.256s] [ext: omni.ui.scene-1.11.5] startup
+[1.263s] [ext: omni.kit.viewport.registry-104.0.6] startup
+[1.263s] [ext: omni.kit.window.filepicker-2.13.4] startup
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 591.74        | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 3080 Ti       | Yes: 0 |     | 12084   MB | 10de      | 91d40000.. |
+|     |                                  |        |     |            | 2208      | 5d990520.. |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | NVIDIA GeForce RTX 3080 Ti       | Yes: 1 |     | 12084   MB | 10de      | 75e90000.. |
+|     |                                  |        |     |            | 2208      | ea5db13e.. |
+|     |                                  |        |     |            | 6         |            |
+|---------------------------------------------------------------------------------------------|
+| 2   | Intel(R) UHD Graphics 770        |        |     | 16271   MB | 8086      | e2f80000.. |
+|     |                                  |        |     |            | 4680      | 86808046.. |
+|     |                                  |        |     |            | N/A       |            |
+|=============================================================================================|
+| OS: Windows 11 Pro, Version: 10.0 (25H2), Build: 26200, Kernel: 10.0.26100.7623
+| Processor: 12th Gen Intel(R) Core(TM) i7-12700K
+| Cores: 12 | Logical Cores: 20
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 32542 | Free Memory: 27981
+| Total Page/Swap (MB): 42270 | Free Page/Swap: 33210
+|---------------------------------------------------------------------------------------------|
+2026-02-08T16:31:44Z [1,196ms] [Warning] [gpu.foundation.plugin] Device 0 PCIe link current width 16 anddevice 1 PCIe link current width 4 don't match.
+2026-02-08T16:31:44Z [1,196ms] [Warning] [gpu.foundation.plugin] PCIe link width current (4) and maximum (16) for device 1 don't match.
+[1.286s] [ext: omni.kit.menu.utils-2.0.5] startup
+[1.295s] [ext: omni.kit.context_menu-1.8.6] startup
+[1.297s] [ext: omni.kit.viewport.scene_camera_model-1.0.6] startup
+[1.299s] [ext: omni.kit.hydra_texture-1.4.6] startup
+[1.303s] [ext: omni.kit.window.file_importer-1.1.18] startup
+[1.308s] [ext: omni.kit.widget.searchable_combobox-1.0.6] startup
+[1.310s] [ext: omni.kit.window.drop_support-1.0.5] startup
+[1.311s] [ext: omni.kit.widget.viewport-107.1.3] startup
+[1.317s] [ext: omni.kit.material.library-2.0.7] startup
+[1.323s] [ext: omni.hydra.engine.stats-1.0.3] startup
+[1.324s] [ext: omni.kit.widget.settings-1.2.6] startup
+[1.327s] [ext: omni.kit.viewport.window-107.2.0] startup
+[1.563s] [ext: omni.kit.window.preferences-1.8.0] startup
+[1.571s] [ext: omni.kit.widget.toolbar-2.0.1] startup
+[1.579s] [ext: omni.kit.viewport.utility-1.1.2] startup
+[1.579s] [ext: omni.kit.manipulator.transform-107.0.0] startup
+[1.585s] [ext: omni.kit.manipulator.tool.snap-1.5.13] startup
+[1.590s] [ext: omni.kit.manipulator.selector-1.1.3] startup
+[1.592s] [ext: omni.kit.property.adapter.core-1.0.2] startup
+[1.595s] [ext: omni.kit.viewport.manipulator.transform-107.0.4] startup
+[1.598s] [ext: omni.kit.manipulator.viewport-107.0.1] startup
+[1.600s] [ext: omni.kit.property.adapter.fabric-1.0.3] startup
+[1.601s] [ext: omni.kit.manipulator.prim.core-107.0.8] startup
+[1.610s] [ext: omni.kit.primitive.mesh-1.0.17] startup
+[1.615s] [ext: omni.kit.widget.filter-1.1.4] startup
+[1.616s] [ext: omni.kit.hotkeys.core-1.3.10] startup
+[1.618s] [ext: omni.kit.manipulator.prim.usd-107.0.3] startup
+[1.620s] [ext: omni.fabric.commands-1.1.6] startup
+[1.624s] [ext: omni.kit.window.file_exporter-1.0.33] startup
+[1.625s] [ext: omni.kit.widget.searchfield-1.1.8] startup
+[1.627s] [ext: omni.kit.manipulator.prim.fabric-107.0.4] startup
+[1.629s] [ext: omni.debugdraw-0.1.4] startup
+[1.632s] [ext: omni.kit.widget.stage-3.1.4] startup
+[1.648s] [ext: omni.kit.property.adapter.usd-1.0.2] startup
+[1.650s] [ext: omni.kit.manipulator.prim-107.0.0] startup
+[1.650s] [ext: omni.kvdb-107.3.26] startup
+[1.653s] [ext: omni.convexdecomposition-107.3.26] startup
+[1.656s] [ext: omni.physx.foundation-107.3.26] startup
+[1.669s] [ext: omni.localcache-107.3.26] startup
+[1.672s] [ext: omni.kit.window.content_browser_registry-0.0.6] startup
+[1.673s] [ext: omni.kit.widget.highlight_label-1.0.3] startup
+[1.674s] [ext: omni.kit.stage_template.core-1.1.22] startup
+[1.675s] [ext: omni.usdphysics-107.3.26] startup
+[1.677s] [ext: omni.kit.window.file-2.0.5] startup
+[1.681s] [ext: omni.physx.cooking-107.3.26] startup
+[1.685s] [ext: omni.physics-107.3.26] startup
+[1.689s] [ext: omni.kit.window.property-1.12.1] startup
+[1.693s] [ext: omni.kit.window.content_browser-3.1.3] startup
+[1.707s] [ext: omni.physx-107.3.26] startup
+[1.721s] [ext: omni.physics.stageupdate-107.3.26] startup
+[1.725s] [ext: omni.kit.property.usd-4.5.12] startup
+[1.737s] [ext: omni.kit.manipulator.selection-106.0.1] startup
+[1.738s] [ext: omni.physics.physx-107.3.26] startup
+2026-02-08T16:31:45Z [1,652ms] [Warning] [carb] Acquiring non optional plugin interface which is not listed as dependency: [omni::physx::IPhysxBenchmarks v1.0] (plugin: <default plugin>), by client: omni.physics.physx.plugin. Add it to CARB_PLUGIN_IMPL_DEPS() macro of a client.
+[1.740s] [ext: omni.kit.widget.prompt-1.0.7] startup
+[1.741s] [ext: omni.kit.viewport.menubar.core-107.2.1] startup
+[1.759s] [ext: omni.kit.viewport.actions-107.0.2] startup
+[1.764s] [ext: omni.inspect-1.0.2] startup
+[1.767s] [ext: omni.kit.widget.layers-1.8.6] startup
+[1.783s] [ext: omni.kit.viewport.menubar.display-107.0.3] startup
+[1.785s] [ext: omni.usd.metrics.assembler-107.3.1] startup
+[1.792s] [ext: omni.graph.core-2.184.5] startup
+[1.797s] [ext: omni.kit.numpy.common-0.1.3] startup
+[1.799s] [ext: omni.usdphysics.ui-107.3.26] startup
+[1.821s] [ext: omni.physx.commands-107.3.26] startup
+[1.827s] [ext: isaacsim.core.deprecation_manager-0.2.7] startup
+[1.828s] [ext: omni.isaac.dynamic_control-2.0.7] startup
+2026-02-08T16:31:45Z [1,745ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+[1.834s] [ext: omni.physx.ui-107.3.26] startup
+[1.866s] [ext: isaacsim.core.version-2.0.6] startup
+[1.867s] [ext: omni.physics.tensors-107.3.26] startup
+[1.873s] [ext: omni.warp.core-1.8.2] startup
+[2.055s] [ext: omni.usd.metrics.assembler.physics-107.3.26] startup
+[2.057s] [ext: isaacsim.storage.native-1.5.1] startup
+[2.059s] [ext: omni.physx.tensors-107.3.26] startup
+[2.063s] [ext: isaacsim.core.utils-3.5.1] startup
+[2.065s] [ext: isaacsim.core.simulation_manager-1.4.4] startup
+[3.624s] [ext: omni.kit.widget.stage_icons-1.0.8] startup
+[3.625s] [ext: omni.kit.widget.text_editor-1.1.1] startup
+[3.628s] [ext: omni.kit.window.stage-2.6.1] startup
+[3.631s] [ext: omni.kit.menu.create-2.0.1] startup
+[3.633s] [ext: omni.kit.window.extensions-1.4.27] startup
+[3.640s] [ext: omni.kit.scripting-107.3.2] startup
+[3.646s] [ext: omni.kit.stagerecorder.core-107.0.3] startup
+[3.649s] [ext: isaacsim.replicator.behavior-1.1.16] startup
+[3.650s] [ext: omni.graph.tools-1.79.2] startup
+[3.678s] [ext: omni.ui_query-1.1.8] startup
+[3.678s] [ext: omni.kit.widget.zoombar-1.0.6] startup
+[3.680s] [ext: omni.graph-1.141.2] startup
+[3.726s] [ext: omni.graph.action_core-1.1.7] startup
+[3.729s] [ext: omni.kit.ui_test-1.3.7] startup
+[3.732s] [ext: omni.kit.browser.core-2.3.13] startup
+[3.737s] [ext: omni.kit.usd.collect-2.4.5] startup
+[3.740s] [ext: omni.graph.action_nodes-1.50.4] startup
+[3.744s] [ext: omni.kit.menu.stage-1.2.7] startup
+[3.749s] [ext: omni.kit.browser.folder.core-1.10.9] startup
+[3.760s] [ext: omni.kit.usdz_export-1.0.9] startup
+[3.763s] [ext: omni.graph.visualization.nodes-2.1.3] startup
+[3.776s] [ext: omni.graph.action-1.130.0] startup
+[3.780s] [ext: omni.kit.tool.collect-2.2.18] startup
+[3.784s] [ext: omni.kit.tool.asset_importer-4.3.2] startup
+[3.797s] [ext: isaacsim.gui.components-1.2.1] startup
+[3.808s] [ext: isaacsim.examples.browser-0.2.1] startup
+[3.819s] [ext: isaacsim.asset.importer.urdf-2.4.31] startup
+[3.897s] [ext: isaacsim.core.cloner-1.4.10] startup
+[3.903s] [ext: omni.kit.stagerecorder.ui-107.0.1] startup
+[3.912s] [ext: isaacsim.asset.browser-1.3.23] startup
+[4.117s] [ext: semantics.schema.editor-2.0.2] startup
+2026-02-08T16:31:47Z [4,036ms] [Warning] [pxr.Semantics] pxr.Semantics is deprecated - please use Semantics instead
+[4.125s] [ext: omni.kit.stagerecorder.bundle-105.0.2] startup
+[4.125s] [ext: omni.kit.window.status_bar-0.1.9] startup
+[4.129s] [ext: omni.kit.widget.graph-2.0.0] startup
+[4.135s] [ext: omni.kit.stage_templates-2.0.0] startup
+[4.139s] [ext: omni.graph.image.core-0.6.1] startup
+[4.140s] [ext: omni.kit.graph.delegate.default-1.2.3] startup
+[4.141s] [ext: isaacsim.core.experimental.utils-0.3.0] startup
+[4.143s] [ext: omni.graph.image.nodes-1.3.1] startup
+[4.145s] [ext: omni.kit.graph.editor.core-1.5.3] startup
+[4.148s] [ext: omni.kit.graph.usd.commands-1.3.1] startup
+[4.150s] [ext: omni.graph.nodes-1.170.10] startup
+[4.160s] [ext: omni.graph.ui_nodes-1.50.5] startup
+[4.165s] [ext: omni.kit.widget.material_preview-1.0.16] startup
+[4.168s] [ext: omni.syntheticdata-0.6.13] startup
+[4.237s] [ext: omni.videoencoding-0.1.2] startup
+[4.244s] [ext: omni.warp-1.8.2] startup
+[4.254s] [ext: omni.kit.window.material_graph-1.9.1] startup
+[4.290s] [ext: omni.graph.scriptnode-1.50.0] startup
+[4.294s] [ext: isaacsim.core.prims-0.6.1] startup
+[4.349s] [ext: isaacsim.test.docstring-1.1.0] startup
+[4.357s] [ext: omni.replicator.core-1.12.27] startup
+2026-02-08T16:31:48Z [4,415ms] [Warning] [omni.graph.core.plugin] Found duplicate of category 'Replicator' - was 'Annotators', adding 'Fabric Reader'
+2026-02-08T16:31:48Z [4,415ms] [Warning] [omni.graph.core.plugin] Category 'Replicator' not accepted on node type 'omni.replicator.core.FabricReader' in extension 'omni.replicator.core'
+2026-02-08T16:31:48Z [4,416ms] [Warning] [omni.replicator.core.scripts.extension] No material configuration file, adding configuration to material settings directly.
+[4.507s] [ext: isaacsim.core.api-4.8.0] startup
+[4.535s] [ext: isaacsim.core.experimental.prims-0.8.1] startup
+[4.584s] [ext: isaacsim.core.nodes-3.4.3] startup
+[4.594s] [ext: isaacsim.robot.surface_gripper-3.3.1] startup
+[4.602s] [ext: isaacsim.util.debug_draw-3.1.0] startup
+[4.614s] [ext: omni.sensors.nv.common-3.0.0] startup
+[4.653s] [ext: isaacsim.robot.manipulators-3.3.6] startup
+[4.678s] [ext: isaacsim.sensors.physx-2.3.2] startup
+[4.695s] [ext: omni.sensors.nv.materials-2.0.0] startup
+[4.715s] [ext: omni.sensors.net-1.0.0] startup
+[4.735s] [ext: isaacsim.app.about-2.0.11] startup
+[4.742s] [ext: isaacsim.simulation_app-2.12.2] startup
+[4.743s] [ext: omni.sensors.nv.ids-2.0.0] startup
+[4.758s] [ext: omni.sensors.nv.lidar-3.0.0] startup
+[4.773s] [ext: omni.kit.property.audio-1.0.16] startup
+[4.780s] [ext: omni.kit.property.camera-1.0.10] startup
+[4.784s] [ext: omni.kit.property.geometry-2.0.4] startup
+[4.794s] [ext: omni.hydra.scene_api-0.1.2] startup
+[4.798s] [ext: omni.kit.property.light-1.0.12] startup
+[4.811s] [ext: omni.sensors.nv.wpm-3.0.0] startup
+[4.816s] [ext: omni.kit.selection-0.1.6] startup
+[4.818s] [ext: omni.kit.property.material-1.11.9] startup
+[4.868s] [ext: omni.kit.property.transform-1.5.13] startup
+[4.883s] [ext: omni.kit.property.render-1.2.1] startup
+[4.891s] [ext: omni.sensors.nv.radar-3.0.0] startup
+[4.905s] [ext: isaacsim.gui.menu-2.4.4] startup
+[4.977s] [ext: omni.kit.manipulator.camera-106.0.4] startup
+[4.993s] [ext: isaacsim.gui.property-1.1.3] startup
+[5.010s] [ext: omni.kit.property.bundle-1.4.1] startup
+[5.031s] [ext: isaacsim.sensors.rtx-15.8.4] startup
+[5.081s] [ext: isaacsim.sensors.physics-0.4.3] startup
+[5.115s] [ext: omni.kit.viewport.menubar.camera-107.0.6] startup
+[5.162s] [ext: omni.kit.viewport.menubar.lighting-107.3.1] startup
+[5.198s] [ext: omni.kit.viewport.menubar.settings-107.0.3] startup
+[5.268s] [ext: omni.kit.viewport.menubar.render-107.0.10] startup
+[5.314s] [ext: isaacsim.robot.policy.examples-4.1.11] startup
+[5.329s] [ext: isaacsim.asset.importer.mjcf-2.5.13] startup
+[5.346s] [ext: omni.kit.window.console-1.1.4] startup
+[5.354s] [ext: omni.rtx.window.settings-0.6.19] startup
+[5.365s] [ext: omni.ocio-0.1.1] startup
+[5.368s] [ext: omni.physx.demos-107.3.26] startup
+[5.414s] [ext: omni.kit.property.physx-107.3.26] startup
+[5.442s] [ext: omni.replicator.replicator_yaml-2.0.11] startup
+[5.461s] [ext: omni.asset_validator.core-1.1.6] startup
+[5.522s] [ext: omni.rtx.settings.core-0.6.5] startup
+[5.527s] [ext: omni.physx.vehicle-107.3.26] startup
+[5.547s] [ext: omni.usd.metrics.assembler.ui-107.3.1] startup
+[5.591s] [ext: omni.kit.window.script_editor-2.0.1] startup
+[5.598s] [ext: isaacsim.robot.wheeled_robots-4.0.24] startup
+[5.608s] [ext: omni.physx.asset_validator-107.3.26] startup
+[5.618s] [ext: omni.kit.window.toolbar-2.0.0] startup
+[5.627s] [ext: omni.physx.camera-107.3.26] startup
+[5.638s] [ext: omni.anim.curve.core-1.3.1] startup
+[5.651s] [ext: omni.physx.cct-107.3.26] startup
+[5.668s] [ext: omni.physx.graph-107.3.26] startup
+[5.689s] [ext: omni.physx.supportui-107.3.26] startup
+[5.716s] [ext: omni.physx.telemetry-107.3.26] startup
+[5.719s] [ext: isaaclab-0.54.2] startup
+[6.005s] [ext: isaaclab_contrib-0.0.2] startup
+[6.006s] [ext: isaacsim.core.throttling-2.2.2] startup
+[6.008s] [ext: omni.kit.ui.actions-1.0.5] startup
+[6.011s] [ext: semantics.schema.property-2.0.1] startup
+[6.013s] [ext: omni.physx.bundle-107.3.26] startup
+[6.013s] [ext: isaacsim.sensors.camera-1.3.6] startup
+[6.019s] [ext: isaaclab_assets-0.2.4] startup
+[6.321s] [ext: isaaclab_tasks-0.11.12] startup
+[6.529s] [ext: omni.kit.menu.common-2.0.1] startup
+[6.531s] [ext: isaaclab_rl-0.4.7] startup
+[6.532s] [ext: isaaclab_mimic-1.0.16] startup
+[6.533s] [ext: isaaclab.python-2.3.2] startup
+[6.537s] Simulation App Starting
+2026-02-08T16:31:50Z [6,676ms] [Warning] [carb.audio.context] failed to set the requested output during context creation.  Using a null streamer instead {result = eOutOfRange (5)}
+2026-02-08T16:31:50Z [6,705ms] [Warning] [omni.fabric.plugin] Warning: attribute overrideClipRange not found for bucket id 9
+
+[6.926s] app ready
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: D:\jeevi\IsaacLab\apps\isaaclab.python.kit
+[INFO]: Parsing configuration from: spdrbot3.tasks.direct.spdrbot3.spdrbot3_env_cfg_rough:Spdrbot3RoughEnvCfg
+[INFO]: Parsing configuration from: spdrbot3.tasks.direct.spdrbot3.agents.rsl_rl_ppo_cfg_rough:PPORoughRunnerCfg
+[INFO] Logging experiment in directory: D:\jeevi\SpdrBot\spdrbot3_direct_project\logs\rsl_rl\spdr3_rough
+Exact experiment name requested from command line: 2026-02-08_22-16-56
+[2026-02-08 22:16:56,982][__main__][WARNING] - IO descriptors are only supported for manager based RL environments. No IO descriptors will be exported.
+
+[36m====================================================================================================================[0m
+[36m[1m[INFO][IsaacLab]: Logging to file: C:\Users\AI_LaB\AppData\Local\Temp\isaaclab\logs\isaaclab_2026-02-08_22-16-57.log[0m
+[36m====================================================================================================================[0m
+
+[33m22:16:57 [simulation_context.py] WARNING: The `enable_external_forces_every_iteration` parameter in the PhysxCfg is set to False. If you are experiencing noisy velocities, consider enabling this flag. You may need to slightly increase the number of velocity iterations (setting it to 1 or 2 rather than 0), together with this flag, to improve the accuracy of velocity updates.[0m
+[INFO]: Base environment:
+	Environment device    : cuda:0
+	Environment seed      : 42
+	Physics step-size     : 0.005
+	Rendering step-size   : 0.005
+	Environment step-size : 0.02
+[33m22:16:57 [direct_rl_env.py] WARNING: The render interval (1) is smaller than the decimation (4). Multiple render calls will happen for each environment step.If this is not intended, set the render interval to be equal to the decimation.[0m
+[INFO] Generating terrains based on curriculum took : 0.870073 seconds
+[33m22:17:00 [interactive_scene.py] WARNING: Collision filtering can only be automatically enabled when replicate_physics=True and using GPU simulation. Please call scene.filter_collisions(global_prim_paths) to filter collisions across environments.[0m
+[11.239s] Simulation App Startup Complete
+[13.422s] [ext: omni.physx.fabric-107.3.26] startup
+2026-02-08T16:32:23Z [39,980ms] [Error] [omni.physx.plugin] PhysX error: Contact buffer overflow detected, please increase its size to at least 18213500 in the scene desc!
+, FILE C:\g\216946694\physx\source\gpunarrowphase\src\PxgNarrowphaseCore.cpp, LINE 1634
+2026-02-08T16:32:23Z [39,980ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 2125816 in the scene desc!
+, FILE C:\g\216946694\physx\source\gpunarrowphase\src\PxgNarrowphaseCore.cpp, LINE 1639
+2026-02-08T16:32:24Z [40,975ms] [Error] [omni.physx.plugin] PhysX error: Contact buffer overflow detected, please increase its size to at least 17736478 in the scene desc!
+, FILE C:\g\216946694\physx\source\gpunarrowphase\src\PxgNarrowphaseCore.cpp, LINE 1634
+2026-02-08T16:32:24Z [40,975ms] [Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 2203112 in the scene desc!
+, FILE C:\g\216946694\physx\source\gpunarrowphase\src\PxgNarrowphaseCore.cpp, LINE 1639
+[INFO]: Time taken for scene creation : 2.805963 seconds
+[INFO]: Scene manager:  <class InteractiveScene>
+	Number of environments: 500
+	Environment spacing   : 0.0
+	Source prim name      : /World/envs/env_0
+	Global prim paths     : []
+	Replicate physics     : False
+[INFO]: Starting the simulation. This may take a few seconds. Please wait...
+[33m22:17:25 [actuator_pd.py] WARNING: The <ImplicitActuatorCfg> object has a value for 'effort_limit'. This parameter will be removed in the future. To set the effort limit, please use 'effort_limit_sim' instead.[0m
+[33m22:17:25 [actuator_pd.py] WARNING: The <ImplicitActuatorCfg> object has a value for 'velocity_limit'. Previously, although this value was specified, it was not getting used by implicit actuators. Since this parameter affects the simulation behavior, we continue to not use it. This parameter will be removed in the future. To set the velocity limit, please use 'velocity_limit_sim' instead.[0m
+C:\ProgramData\anaconda3\envs\env_isaaclab\Lib\site-packages\rsl_rl\utils\utils.py:245: UserWarning: The observation configuration dictionary 'obs_groups' must contain the 'policy' key. As an observation group with the name 'policy' was found, this is assumed to be the observation set. Consider adding the 'policy' key to the 'obs_groups' dictionary for clarity. This behavior will be removed in a future version.
+  warnings.warn(
+C:\ProgramData\anaconda3\envs\env_isaaclab\Lib\site-packages\rsl_rl\utils\utils.py:291: UserWarning: The observation configuration dictionary 'obs_groups' must contain the 'critic' key. As the configuration for 'critic' is missing, the observations from the 'policy' set are used. Consider adding the 'critic' key to the 'obs_groups' dictionary for clarity. This behavior will be removed in a future version.
+  warnings.warn(
+[INFO]: Time taken for simulation start : 101.560778 seconds
+Creating window for environment.
+ManagerLiveVisualizer cannot be created for manager: action_manager, Manager does not exist
+ManagerLiveVisualizer cannot be created for manager: observation_manager, Manager does not exist
+[INFO] Event Manager:  <EventManager> contains 2 active terms.
++--------------------------------------+
+| Active Event Terms in Mode: 'startup' |
++----------+---------------------------+
+|  Index   | Name                      |
++----------+---------------------------+
+|    0     | physics_material          |
+|    1     | add_base_mass             |
++----------+---------------------------+
++----------------------------------------------+
+|    Active Event Terms in Mode: 'interval'    |
++-------+------------+-------------------------+
+| Index | Name       | Interval time range (s) |
++-------+------------+-------------------------+
+|   0   | push_robot |       (10.0, 15.0)      |
++-------+------------+-------------------------+
+
+[INFO]: Completed setting up the environment...
+[INFO] Using absolute checkpoint for transfer learning: D:\jeevi\SpdrBot\spdrbot3_direct_project\logs\rsl_rl\spdr3\2026-02-06_21-08-12\model_499.pt
+--------------------------------------------------------------------------------
+Resolved observation sets: 
+	 policy :  ['policy']
+	 critic :  ['policy']
+--------------------------------------------------------------------------------
+Actor MLP: MLP(
+  (0): Linear(in_features=48, out_features=64, bias=True)
+  (1): ELU(alpha=1.0)
+  (2): Linear(in_features=64, out_features=64, bias=True)
+  (3): ELU(alpha=1.0)
+  (4): Linear(in_features=64, out_features=12, bias=True)
+)
+Critic MLP: MLP(
+  (0): Linear(in_features=48, out_features=64, bias=True)
+  (1): ELU(alpha=1.0)
+  (2): Linear(in_features=64, out_features=64, bias=True)
+  (3): ELU(alpha=1.0)
+  (4): Linear(in_features=64, out_features=1, bias=True)
+)
+[INFO]: Loading model checkpoint from: D:\jeevi\SpdrBot\spdrbot3_direct_project\logs\rsl_rl\spdr3\2026-02-06_21-08-12\model_499.pt
+################################################################################
+                      [1m Learning iteration 499/599 [0m                      
+
+                       Computation: 1081 steps/s (collection: 14.374s, learning 0.415s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 368875.5335
+               Mean surrogate loss: -0.0007
+                 Mean entropy loss: -17.4177
+                       Mean reward: -22.10
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0045
+      Episode_Reward/ang_vel_xy_l2: -0.0092
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.6635
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 16000
+                    Iteration time: 14.79s
+                      Time elapsed: 00:00:14
+                               ETA: 00:24:38
+
+Could not find git repository in C:\ProgramData\anaconda3\envs\env_isaaclab\Lib\site-packages\rsl_rl\__init__.py. Skipping.
+Storing git diff for 'SpdrBot' in: D:\jeevi\SpdrBot\spdrbot3_direct_project\logs\rsl_rl\spdr3_rough\2026-02-08_22-16-56\git\SpdrBot.diff
+################################################################################
+                      [1m Learning iteration 500/599 [0m                      
+
+                       Computation: 2775 steps/s (collection: 5.670s, learning 0.095s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 723754.0706
+               Mean surrogate loss: 0.0008
+                 Mean entropy loss: -17.3315
+                       Mean reward: -59.42
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0041
+      Episode_Reward/ang_vel_xy_l2: -0.0096
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.6377
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 32000
+                    Iteration time: 5.76s
+                      Time elapsed: 00:00:20
+                               ETA: 00:16:57
+
+################################################################################
+                      [1m Learning iteration 501/599 [0m                      
+
+                       Computation: 2862 steps/s (collection: 5.489s, learning 0.100s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 413047.4072
+               Mean surrogate loss: -0.0002
+                 Mean entropy loss: -17.3071
+                       Mean reward: -24.81
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0079
+      Episode_Reward/ang_vel_xy_l2: -0.0181
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.6158
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 48000
+                    Iteration time: 5.59s
+                      Time elapsed: 00:00:26
+                               ETA: 00:14:14
+
+################################################################################
+                      [1m Learning iteration 502/599 [0m                      
+
+                       Computation: 2753 steps/s (collection: 5.709s, learning 0.102s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 186613.6540
+               Mean surrogate loss: -0.0004
+                 Mean entropy loss: -17.2797
+                       Mean reward: -19.42
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0104
+      Episode_Reward/ang_vel_xy_l2: -0.0162
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.5259
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 64000
+                    Iteration time: 5.81s
+                      Time elapsed: 00:00:31
+                               ETA: 00:12:54
+
+################################################################################
+                      [1m Learning iteration 503/599 [0m                      
+
+                       Computation: 2721 steps/s (collection: 5.774s, learning 0.104s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 845937669065.8425
+               Mean surrogate loss: 0.0001
+                 Mean entropy loss: -17.2494
+                       Mean reward: -14.81
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -30.7661
+      Episode_Reward/ang_vel_xy_l2: -160.8279
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -2.6991
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 80000
+                    Iteration time: 5.88s
+                      Time elapsed: 00:00:37
+                               ETA: 00:12:06
+
+################################################################################
+                      [1m Learning iteration 504/599 [0m                      
+
+                       Computation: 2635 steps/s (collection: 5.965s, learning 0.105s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 5632846.8559
+               Mean surrogate loss: -0.0001
+                 Mean entropy loss: -17.2084
+                       Mean reward: -14.43
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0002
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0043
+      Episode_Reward/ang_vel_xy_l2: -0.0873
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.9864
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 96000
+                    Iteration time: 6.07s
+                      Time elapsed: 00:00:43
+                               ETA: 00:11:35
+
+################################################################################
+                      [1m Learning iteration 505/599 [0m                      
+
+                       Computation: 2739 steps/s (collection: 5.738s, learning 0.103s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 46869667.4337
+               Mean surrogate loss: 0.0001
+                 Mean entropy loss: -17.1102
+                       Mean reward: -18.96
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0460
+      Episode_Reward/ang_vel_xy_l2: -0.1697
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -1.7577
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 112000
+                    Iteration time: 5.84s
+                      Time elapsed: 00:00:49
+                               ETA: 00:11:07
+
+################################################################################
+                      [1m Learning iteration 506/599 [0m                      
+
+                       Computation: 2864 steps/s (collection: 5.495s, learning 0.091s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 11269982.8757
+               Mean surrogate loss: 0.0001
+                 Mean entropy loss: -17.0509
+                       Mean reward: -26.56
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0073
+      Episode_Reward/ang_vel_xy_l2: -0.0319
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -1.4752
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 128000
+                    Iteration time: 5.59s
+                      Time elapsed: 00:00:55
+                               ETA: 00:10:43
+
+################################################################################
+                      [1m Learning iteration 507/599 [0m                      
+
+                       Computation: 2909 steps/s (collection: 5.410s, learning 0.089s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 3089443259395.8755
+               Mean surrogate loss: -0.0003
+                 Mean entropy loss: -16.8780
+                       Mean reward: -19.30
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -12.5651
+      Episode_Reward/ang_vel_xy_l2: -8.1750
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -330.5256
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 144000
+                    Iteration time: 5.50s
+                      Time elapsed: 00:01:00
+                               ETA: 00:10:21
+
+################################################################################
+                      [1m Learning iteration 508/599 [0m                      
+
+                       Computation: 2881 steps/s (collection: 5.425s, learning 0.128s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 12367.7526
+               Mean surrogate loss: 0.0003
+                 Mean entropy loss: -16.4144
+                       Mean reward: -17.19
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0069
+      Episode_Reward/ang_vel_xy_l2: -0.0242
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4299
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 160000
+                    Iteration time: 5.55s
+                      Time elapsed: 00:01:06
+                               ETA: 00:10:04
+
+################################################################################
+                      [1m Learning iteration 509/599 [0m                      
+
+                       Computation: 2918 steps/s (collection: 5.392s, learning 0.091s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 17659.2905
+               Mean surrogate loss: 0.0060
+                 Mean entropy loss: -16.4105
+                       Mean reward: -23.49
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0002
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0033
+      Episode_Reward/ang_vel_xy_l2: -0.0083
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4881
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 176000
+                    Iteration time: 5.48s
+                      Time elapsed: 00:01:11
+                               ETA: 00:09:47
+
+################################################################################
+                      [1m Learning iteration 510/599 [0m                      
+
+                       Computation: 2894 steps/s (collection: 5.396s, learning 0.132s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 27641.1304
+               Mean surrogate loss: -0.0007
+                 Mean entropy loss: -16.3986
+                       Mean reward: -20.00
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0034
+      Episode_Reward/ang_vel_xy_l2: -0.0084
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4412
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 192000
+                    Iteration time: 5.53s
+                      Time elapsed: 00:01:17
+                               ETA: 00:09:33
+
+################################################################################
+                      [1m Learning iteration 511/599 [0m                      
+
+                       Computation: 2922 steps/s (collection: 5.382s, learning 0.093s)
+             Mean action noise std: 0.07
+          Mean value_function loss: 4525.0463
+               Mean surrogate loss: 0.0097
+                 Mean entropy loss: -16.3296
+                       Mean reward: -13.97
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0047
+      Episode_Reward/ang_vel_xy_l2: -0.0154
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4270
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0312
+--------------------------------------------------------------------------------
+                   Total timesteps: 208000
+                    Iteration time: 5.48s
+                      Time elapsed: 00:01:22
+                               ETA: 00:09:20
+
+################################################################################
+                      [1m Learning iteration 512/599 [0m                      
+
+                       Computation: 2909 steps/s (collection: 5.400s, learning 0.099s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 3331159.6907
+               Mean surrogate loss: -0.0012
+                 Mean entropy loss: -16.3024
+                       Mean reward: -19.73
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0523
+      Episode_Reward/ang_vel_xy_l2: -0.0653
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.9312
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 224000
+                    Iteration time: 5.50s
+                      Time elapsed: 00:01:28
+                               ETA: 00:09:09
+
+################################################################################
+                      [1m Learning iteration 513/599 [0m                      
+
+                       Computation: 2898 steps/s (collection: 5.429s, learning 0.091s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 301887.4836
+               Mean surrogate loss: -0.0003
+                 Mean entropy loss: -16.2486
+                       Mean reward: -23.87
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0203
+      Episode_Reward/ang_vel_xy_l2: -0.0922
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4828
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 240000
+                    Iteration time: 5.52s
+                      Time elapsed: 00:01:33
+                               ETA: 00:08:58
+
+################################################################################
+                      [1m Learning iteration 514/599 [0m                      
+
+                       Computation: 2809 steps/s (collection: 5.600s, learning 0.095s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 1971595550.7543
+               Mean surrogate loss: 0.0002
+                 Mean entropy loss: -16.2090
+                       Mean reward: -13.20
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0049
+      Episode_Reward/ang_vel_xy_l2: -8.1505
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -1.2139
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 256000
+                    Iteration time: 5.69s
+                      Time elapsed: 00:01:39
+                               ETA: 00:08:49
+
+################################################################################
+                      [1m Learning iteration 515/599 [0m                      
+
+                       Computation: 2890 steps/s (collection: 5.446s, learning 0.090s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 38748.8771
+               Mean surrogate loss: -0.0007
+                 Mean entropy loss: -16.1661
+                       Mean reward: -23.19
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0034
+      Episode_Reward/ang_vel_xy_l2: -0.0066
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4562
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 272000
+                    Iteration time: 5.54s
+                      Time elapsed: 00:01:45
+                               ETA: 00:08:39
+
+################################################################################
+                      [1m Learning iteration 516/599 [0m                      
+
+                       Computation: 2906 steps/s (collection: 5.413s, learning 0.091s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 89083939.2516
+               Mean surrogate loss: -0.0008
+                 Mean entropy loss: -16.0802
+                       Mean reward: -18.69
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0163
+      Episode_Reward/ang_vel_xy_l2: -0.0366
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -2.4975
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 288000
+                    Iteration time: 5.50s
+                      Time elapsed: 00:01:50
+                               ETA: 00:08:30
+
+################################################################################
+                      [1m Learning iteration 517/599 [0m                      
+
+                       Computation: 2931 steps/s (collection: 5.366s, learning 0.091s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 6748.6205
+               Mean surrogate loss: 0.0006
+                 Mean entropy loss: -16.0632
+                       Mean reward: -26.07
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0037
+      Episode_Reward/ang_vel_xy_l2: -0.0090
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4510
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 304000
+                    Iteration time: 5.46s
+                      Time elapsed: 00:01:56
+                               ETA: 00:08:20
+
+################################################################################
+                      [1m Learning iteration 518/599 [0m                      
+
+                       Computation: 2915 steps/s (collection: 5.396s, learning 0.091s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 554213.9776
+               Mean surrogate loss: -0.0001
+                 Mean entropy loss: -16.0281
+                       Mean reward: -15.26
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0048
+      Episode_Reward/ang_vel_xy_l2: -0.0138
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.6021
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 320000
+                    Iteration time: 5.49s
+                      Time elapsed: 00:02:01
+                               ETA: 00:08:12
+
+################################################################################
+                      [1m Learning iteration 519/599 [0m                      
+
+                       Computation: 2890 steps/s (collection: 5.442s, learning 0.094s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 26928.7812
+               Mean surrogate loss: 0.0026
+                 Mean entropy loss: -16.0100
+                       Mean reward: -13.40
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0031
+      Episode_Reward/ang_vel_xy_l2: -0.0061
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4493
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 336000
+                    Iteration time: 5.54s
+                      Time elapsed: 00:02:07
+                               ETA: 00:08:04
+
+################################################################################
+                      [1m Learning iteration 520/599 [0m                      
+
+                       Computation: 2925 steps/s (collection: 5.373s, learning 0.096s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 35122075.2877
+               Mean surrogate loss: -0.0007
+                 Mean entropy loss: -15.9777
+                       Mean reward: -18.43
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0086
+      Episode_Reward/ang_vel_xy_l2: -0.1001
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -1.7042
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 352000
+                    Iteration time: 5.47s
+                      Time elapsed: 00:02:12
+                               ETA: 00:07:56
+
+################################################################################
+                      [1m Learning iteration 521/599 [0m                      
+
+                       Computation: 2919 steps/s (collection: 5.390s, learning 0.091s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 12436.4589
+               Mean surrogate loss: 0.0013
+                 Mean entropy loss: -15.8976
+                       Mean reward: -20.52
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0031
+      Episode_Reward/ang_vel_xy_l2: -0.0063
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4384
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 368000
+                    Iteration time: 5.48s
+                      Time elapsed: 00:02:18
+                               ETA: 00:07:48
+
+################################################################################
+                      [1m Learning iteration 522/599 [0m                      
+
+                       Computation: 2931 steps/s (collection: 5.368s, learning 0.090s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 4198.8296
+               Mean surrogate loss: 0.0051
+                 Mean entropy loss: -15.8565
+                       Mean reward: -18.37
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0002
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0061
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4188
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 384000
+                    Iteration time: 5.46s
+                      Time elapsed: 00:02:23
+                               ETA: 00:07:40
+
+################################################################################
+                      [1m Learning iteration 523/599 [0m                      
+
+                       Computation: 2912 steps/s (collection: 5.349s, learning 0.144s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 6728.2851
+               Mean surrogate loss: 0.0042
+                 Mean entropy loss: -15.8504
+                       Mean reward: -19.71
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0004
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0043
+      Episode_Reward/ang_vel_xy_l2: -0.0066
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4208
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0312
+--------------------------------------------------------------------------------
+                   Total timesteps: 400000
+                    Iteration time: 5.49s
+                      Time elapsed: 00:02:29
+                               ETA: 00:07:32
+
+################################################################################
+                      [1m Learning iteration 524/599 [0m                      
+
+                       Computation: 2912 steps/s (collection: 5.382s, learning 0.111s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 314633.0931
+               Mean surrogate loss: -0.0009
+                 Mean entropy loss: -15.8081
+                       Mean reward: -16.24
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0062
+      Episode_Reward/ang_vel_xy_l2: -0.0310
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.5738
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 416000
+                    Iteration time: 5.49s
+                      Time elapsed: 00:02:34
+                               ETA: 00:07:25
+
+################################################################################
+                      [1m Learning iteration 525/599 [0m                      
+
+                       Computation: 2863 steps/s (collection: 5.416s, learning 0.171s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 1012.9063
+               Mean surrogate loss: 0.0005
+                 Mean entropy loss: -15.6566
+                       Mean reward: -15.96
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0006
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0030
+      Episode_Reward/ang_vel_xy_l2: -0.0046
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4011
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0625
+--------------------------------------------------------------------------------
+                   Total timesteps: 432000
+                    Iteration time: 5.59s
+                      Time elapsed: 00:02:40
+                               ETA: 00:07:18
+
+################################################################################
+                      [1m Learning iteration 526/599 [0m                      
+
+                       Computation: 2903 steps/s (collection: 5.375s, learning 0.136s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 401856.1785
+               Mean surrogate loss: 0.0015
+                 Mean entropy loss: -15.6807
+                       Mean reward: -20.80
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0039
+      Episode_Reward/ang_vel_xy_l2: -0.0109
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.6106
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 448000
+                    Iteration time: 5.51s
+                      Time elapsed: 00:02:45
+                               ETA: 00:07:11
+
+################################################################################
+                      [1m Learning iteration 527/599 [0m                      
+
+                       Computation: 2931 steps/s (collection: 5.364s, learning 0.094s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 76721.9610
+               Mean surrogate loss: 0.0009
+                 Mean entropy loss: -15.6438
+                       Mean reward: -376.66
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0051
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4750
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 464000
+                    Iteration time: 5.46s
+                      Time elapsed: 00:02:51
+                               ETA: 00:07:04
+
+################################################################################
+                      [1m Learning iteration 528/599 [0m                      
+
+                       Computation: 2926 steps/s (collection: 5.372s, learning 0.095s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 5147.2674
+               Mean surrogate loss: 0.0001
+                 Mean entropy loss: -15.5954
+                       Mean reward: -17.57
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0048
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4285
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 480000
+                    Iteration time: 5.47s
+                      Time elapsed: 00:02:56
+                               ETA: 00:06:57
+
+################################################################################
+                      [1m Learning iteration 529/599 [0m                      
+
+                       Computation: 2886 steps/s (collection: 5.447s, learning 0.096s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 2431.3042
+               Mean surrogate loss: 0.0023
+                 Mean entropy loss: -15.5008
+                       Mean reward: -19.06
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0032
+      Episode_Reward/ang_vel_xy_l2: -0.0072
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4208
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 496000
+                    Iteration time: 5.54s
+                      Time elapsed: 00:03:02
+                               ETA: 00:06:51
+
+################################################################################
+                      [1m Learning iteration 530/599 [0m                      
+
+                       Computation: 2913 steps/s (collection: 5.398s, learning 0.094s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 152727.6756
+               Mean surrogate loss: 0.0003
+                 Mean entropy loss: -15.5006
+                       Mean reward: -15.23
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0077
+      Episode_Reward/ang_vel_xy_l2: -0.0177
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.5294
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 512000
+                    Iteration time: 5.49s
+                      Time elapsed: 00:03:07
+                               ETA: 00:06:44
+
+################################################################################
+                      [1m Learning iteration 531/599 [0m                      
+
+                       Computation: 2898 steps/s (collection: 5.429s, learning 0.091s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 69009271013410.0156
+               Mean surrogate loss: -0.0013
+                 Mean entropy loss: -15.4809
+                       Mean reward: -30.49
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -12.1874
+      Episode_Reward/ang_vel_xy_l2: -28.6500
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -1650.1580
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 528000
+                    Iteration time: 5.52s
+                      Time elapsed: 00:03:13
+                               ETA: 00:06:37
+
+################################################################################
+                      [1m Learning iteration 532/599 [0m                      
+
+                       Computation: 2888 steps/s (collection: 5.437s, learning 0.101s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 27170.7286
+               Mean surrogate loss: 0.0008
+                 Mean entropy loss: -15.4351
+                       Mean reward: -20.55
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0033
+      Episode_Reward/ang_vel_xy_l2: -0.0071
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4460
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 544000
+                    Iteration time: 5.54s
+                      Time elapsed: 00:03:18
+                               ETA: 00:06:31
+
+################################################################################
+                      [1m Learning iteration 533/599 [0m                      
+
+                       Computation: 2901 steps/s (collection: 5.402s, learning 0.113s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 26369.5801
+               Mean surrogate loss: 0.0047
+                 Mean entropy loss: -15.3105
+                       Mean reward: -23.45
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0050
+      Episode_Reward/ang_vel_xy_l2: -0.0200
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4333
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 560000
+                    Iteration time: 5.52s
+                      Time elapsed: 00:03:24
+                               ETA: 00:06:24
+
+################################################################################
+                      [1m Learning iteration 534/599 [0m                      
+
+                       Computation: 2918 steps/s (collection: 5.390s, learning 0.093s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 59981.1173
+               Mean surrogate loss: -0.0002
+                 Mean entropy loss: -15.2843
+                       Mean reward: -74.29
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0032
+      Episode_Reward/ang_vel_xy_l2: -0.0077
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4727
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 576000
+                    Iteration time: 5.48s
+                      Time elapsed: 00:03:29
+                               ETA: 00:06:18
+
+################################################################################
+                      [1m Learning iteration 535/599 [0m                      
+
+                       Computation: 2915 steps/s (collection: 5.398s, learning 0.090s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 14012869.3583
+               Mean surrogate loss: -0.0007
+                 Mean entropy loss: -15.2484
+                       Mean reward: -15.69
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0251
+      Episode_Reward/ang_vel_xy_l2: -0.7150
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4894
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 592000
+                    Iteration time: 5.49s
+                      Time elapsed: 00:03:35
+                               ETA: 00:06:12
+
+################################################################################
+                      [1m Learning iteration 536/599 [0m                      
+
+                       Computation: 2888 steps/s (collection: 5.446s, learning 0.092s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 129347.5822
+               Mean surrogate loss: -0.0001
+                 Mean entropy loss: -15.2340
+                       Mean reward: -16.95
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0004
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0062
+      Episode_Reward/ang_vel_xy_l2: -0.0831
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4680
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 608000
+                    Iteration time: 5.54s
+                      Time elapsed: 00:03:40
+                               ETA: 00:06:05
+
+################################################################################
+                      [1m Learning iteration 537/599 [0m                      
+
+                       Computation: 2915 steps/s (collection: 5.396s, learning 0.092s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 9402.1227
+               Mean surrogate loss: 0.0000
+                 Mean entropy loss: -15.2151
+                       Mean reward: -14.90
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0033
+      Episode_Reward/ang_vel_xy_l2: -0.0058
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4345
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 624000
+                    Iteration time: 5.49s
+                      Time elapsed: 00:03:46
+                               ETA: 00:05:59
+
+################################################################################
+                      [1m Learning iteration 538/599 [0m                      
+
+                       Computation: 2917 steps/s (collection: 5.388s, learning 0.097s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 5269239.1343
+               Mean surrogate loss: 0.0003
+                 Mean entropy loss: -15.2113
+                       Mean reward: -16.70
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0301
+      Episode_Reward/ang_vel_xy_l2: -0.2681
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.9028
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 640000
+                    Iteration time: 5.48s
+                      Time elapsed: 00:03:51
+                               ETA: 00:05:53
+
+################################################################################
+                      [1m Learning iteration 539/599 [0m                      
+
+                       Computation: 2916 steps/s (collection: 5.385s, learning 0.101s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 9851.8375
+               Mean surrogate loss: -0.0005
+                 Mean entropy loss: -15.2012
+                       Mean reward: -17.16
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0033
+      Episode_Reward/ang_vel_xy_l2: -0.0079
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4315
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 656000
+                    Iteration time: 5.49s
+                      Time elapsed: 00:03:57
+                               ETA: 00:05:46
+
+################################################################################
+                      [1m Learning iteration 540/599 [0m                      
+
+                       Computation: 2933 steps/s (collection: 5.360s, learning 0.094s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 4704.8341
+               Mean surrogate loss: 0.0054
+                 Mean entropy loss: -15.1664
+                       Mean reward: -17.92
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0050
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4273
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 672000
+                    Iteration time: 5.45s
+                      Time elapsed: 00:04:02
+                               ETA: 00:05:40
+
+################################################################################
+                      [1m Learning iteration 541/599 [0m                      
+
+                       Computation: 2893 steps/s (collection: 5.437s, learning 0.093s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 6092.7222
+               Mean surrogate loss: -0.0005
+                 Mean entropy loss: -15.1463
+                       Mean reward: -13.41
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0033
+      Episode_Reward/ang_vel_xy_l2: -0.0076
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4269
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 688000
+                    Iteration time: 5.53s
+                      Time elapsed: 00:04:08
+                               ETA: 00:05:34
+
+################################################################################
+                      [1m Learning iteration 542/599 [0m                      
+
+                       Computation: 2870 steps/s (collection: 5.475s, learning 0.099s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 3917.2877
+               Mean surrogate loss: 0.0068
+                 Mean entropy loss: -15.0542
+                       Mean reward: -25.77
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0028
+      Episode_Reward/ang_vel_xy_l2: -0.0122
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4075
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 704000
+                    Iteration time: 5.57s
+                      Time elapsed: 00:04:13
+                               ETA: 00:05:28
+
+################################################################################
+                      [1m Learning iteration 543/599 [0m                      
+
+                       Computation: 2893 steps/s (collection: 5.435s, learning 0.094s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 34848.0160
+               Mean surrogate loss: 0.0002
+                 Mean entropy loss: -15.0451
+                       Mean reward: -215.36
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0064
+      Episode_Reward/ang_vel_xy_l2: -0.0206
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4585
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 720000
+                    Iteration time: 5.53s
+                      Time elapsed: 00:04:19
+                               ETA: 00:05:22
+
+################################################################################
+                      [1m Learning iteration 544/599 [0m                      
+
+                       Computation: 2865 steps/s (collection: 5.437s, learning 0.146s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 4928.6396
+               Mean surrogate loss: 0.0002
+                 Mean entropy loss: -15.0424
+                       Mean reward: -16.16
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0035
+      Episode_Reward/ang_vel_xy_l2: -0.0080
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4095
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 736000
+                    Iteration time: 5.58s
+                      Time elapsed: 00:04:24
+                               ETA: 00:05:16
+
+################################################################################
+                      [1m Learning iteration 545/599 [0m                      
+
+                       Computation: 2884 steps/s (collection: 5.433s, learning 0.114s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 923.8057
+               Mean surrogate loss: 0.0169
+                 Mean entropy loss: -15.0646
+                       Mean reward: -15.50
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0030
+      Episode_Reward/ang_vel_xy_l2: -0.0059
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3981
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 752000
+                    Iteration time: 5.55s
+                      Time elapsed: 00:04:30
+                               ETA: 00:05:10
+
+################################################################################
+                      [1m Learning iteration 546/599 [0m                      
+
+                       Computation: 2906 steps/s (collection: 5.412s, learning 0.093s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 1607.8113
+               Mean surrogate loss: 0.0073
+                 Mean entropy loss: -15.0735
+                       Mean reward: -15.45
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0033
+      Episode_Reward/ang_vel_xy_l2: -0.0052
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4081
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 768000
+                    Iteration time: 5.50s
+                      Time elapsed: 00:04:35
+                               ETA: 00:05:04
+
+################################################################################
+                      [1m Learning iteration 547/599 [0m                      
+
+                       Computation: 2880 steps/s (collection: 5.458s, learning 0.097s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 1083.9558
+               Mean surrogate loss: -0.0004
+                 Mean entropy loss: -15.0753
+                       Mean reward: -18.19
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0032
+      Episode_Reward/ang_vel_xy_l2: -0.0060
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4029
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 784000
+                    Iteration time: 5.55s
+                      Time elapsed: 00:04:41
+                               ETA: 00:04:58
+
+################################################################################
+                      [1m Learning iteration 548/599 [0m                      
+
+                       Computation: 2868 steps/s (collection: 5.484s, learning 0.095s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 1171.2565
+               Mean surrogate loss: 0.0064
+                 Mean entropy loss: -15.1025
+                       Mean reward: -14.32
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0030
+      Episode_Reward/ang_vel_xy_l2: -0.0050
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4021
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 800000
+                    Iteration time: 5.58s
+                      Time elapsed: 00:04:46
+                               ETA: 00:04:52
+
+################################################################################
+                      [1m Learning iteration 549/599 [0m                      
+
+                       Computation: 2820 steps/s (collection: 5.547s, learning 0.126s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 5101.6811
+               Mean surrogate loss: -0.0006
+                 Mean entropy loss: -15.0990
+                       Mean reward: -13.11
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0034
+      Episode_Reward/ang_vel_xy_l2: -0.0090
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4099
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 816000
+                    Iteration time: 5.67s
+                      Time elapsed: 00:04:52
+                               ETA: 00:04:46
+
+################################################################################
+                      [1m Learning iteration 550/599 [0m                      
+
+                       Computation: 2924 steps/s (collection: 5.380s, learning 0.091s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 16877.6442
+               Mean surrogate loss: 0.0011
+                 Mean entropy loss: -15.0242
+                       Mean reward: -16.27
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0032
+      Episode_Reward/ang_vel_xy_l2: -0.0051
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4362
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 832000
+                    Iteration time: 5.47s
+                      Time elapsed: 00:04:58
+                               ETA: 00:04:40
+
+################################################################################
+                      [1m Learning iteration 551/599 [0m                      
+
+                       Computation: 2948 steps/s (collection: 5.335s, learning 0.092s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 3903.7193
+               Mean surrogate loss: -0.0010
+                 Mean entropy loss: -15.0085
+                       Mean reward: -14.12
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0058
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4152
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 848000
+                    Iteration time: 5.43s
+                      Time elapsed: 00:05:03
+                               ETA: 00:04:34
+
+################################################################################
+                      [1m Learning iteration 552/599 [0m                      
+
+                       Computation: 2928 steps/s (collection: 5.368s, learning 0.096s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 2085.3364
+               Mean surrogate loss: 0.0012
+                 Mean entropy loss: -15.0178
+                       Mean reward: -16.71
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0031
+      Episode_Reward/ang_vel_xy_l2: -0.0066
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3977
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 864000
+                    Iteration time: 5.46s
+                      Time elapsed: 00:05:08
+                               ETA: 00:04:28
+
+################################################################################
+                      [1m Learning iteration 553/599 [0m                      
+
+                       Computation: 2918 steps/s (collection: 5.385s, learning 0.098s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 1050.3933
+               Mean surrogate loss: -0.0001
+                 Mean entropy loss: -14.9908
+                       Mean reward: -11.39
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0047
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3905
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 880000
+                    Iteration time: 5.48s
+                      Time elapsed: 00:05:14
+                               ETA: 00:04:23
+
+################################################################################
+                      [1m Learning iteration 554/599 [0m                      
+
+                       Computation: 2915 steps/s (collection: 5.394s, learning 0.094s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 15105.2100
+               Mean surrogate loss: 0.0000
+                 Mean entropy loss: -14.9261
+                       Mean reward: -14.59
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0030
+      Episode_Reward/ang_vel_xy_l2: -0.0048
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4247
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 896000
+                    Iteration time: 5.49s
+                      Time elapsed: 00:05:19
+                               ETA: 00:04:17
+
+################################################################################
+                      [1m Learning iteration 555/599 [0m                      
+
+                       Computation: 2929 steps/s (collection: 5.367s, learning 0.094s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 1957918.1587
+               Mean surrogate loss: -0.0010
+                 Mean entropy loss: -14.9038
+                       Mean reward: -18.38
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0252
+      Episode_Reward/ang_vel_xy_l2: -0.1732
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.5900
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 912000
+                    Iteration time: 5.46s
+                      Time elapsed: 00:05:25
+                               ETA: 00:04:11
+
+################################################################################
+                      [1m Learning iteration 556/599 [0m                      
+
+                       Computation: 2907 steps/s (collection: 5.409s, learning 0.093s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 3644.3105
+               Mean surrogate loss: -0.0006
+                 Mean entropy loss: -14.8881
+                       Mean reward: -14.47
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0056
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4114
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 928000
+                    Iteration time: 5.50s
+                      Time elapsed: 00:05:30
+                               ETA: 00:04:05
+
+################################################################################
+                      [1m Learning iteration 557/599 [0m                      
+
+                       Computation: 2928 steps/s (collection: 5.370s, learning 0.093s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 2156.4696
+               Mean surrogate loss: 0.0066
+                 Mean entropy loss: -14.9129
+                       Mean reward: -18.78
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0043
+      Episode_Reward/ang_vel_xy_l2: -0.0090
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4238
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 944000
+                    Iteration time: 5.46s
+                      Time elapsed: 00:05:36
+                               ETA: 00:03:59
+
+################################################################################
+                      [1m Learning iteration 558/599 [0m                      
+
+                       Computation: 2921 steps/s (collection: 5.386s, learning 0.091s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 1340.3130
+               Mean surrogate loss: -0.0006
+                 Mean entropy loss: -14.9226
+                       Mean reward: -16.07
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0035
+      Episode_Reward/ang_vel_xy_l2: -0.0080
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4110
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 960000
+                    Iteration time: 5.48s
+                      Time elapsed: 00:05:41
+                               ETA: 00:03:53
+
+################################################################################
+                      [1m Learning iteration 559/599 [0m                      
+
+                       Computation: 2909 steps/s (collection: 5.404s, learning 0.096s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 11024431.5393
+               Mean surrogate loss: 0.0045
+                 Mean entropy loss: -14.9315
+                       Mean reward: -13.68
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0044
+      Episode_Reward/ang_vel_xy_l2: -0.0410
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -1.0919
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 976000
+                    Iteration time: 5.50s
+                      Time elapsed: 00:05:47
+                               ETA: 00:03:47
+
+################################################################################
+                      [1m Learning iteration 560/599 [0m                      
+
+                       Computation: 2940 steps/s (collection: 5.346s, learning 0.095s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 2782.2928
+               Mean surrogate loss: -0.0004
+                 Mean entropy loss: -14.9368
+                       Mean reward: -13.28
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0033
+      Episode_Reward/ang_vel_xy_l2: -0.0077
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3947
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 992000
+                    Iteration time: 5.44s
+                      Time elapsed: 00:05:52
+                               ETA: 00:03:41
+
+################################################################################
+                      [1m Learning iteration 561/599 [0m                      
+
+                       Computation: 2941 steps/s (collection: 5.344s, learning 0.096s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 2573.3687
+               Mean surrogate loss: 0.0006
+                 Mean entropy loss: -14.9090
+                       Mean reward: -13.43
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0032
+      Episode_Reward/ang_vel_xy_l2: -0.0094
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3849
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1008000
+                    Iteration time: 5.44s
+                      Time elapsed: 00:05:58
+                               ETA: 00:03:36
+
+################################################################################
+                      [1m Learning iteration 562/599 [0m                      
+
+                       Computation: 2872 steps/s (collection: 5.472s, learning 0.098s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 2090.0258
+               Mean surrogate loss: 0.0018
+                 Mean entropy loss: -14.8698
+                       Mean reward: -17.00
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0051
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3968
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1024000
+                    Iteration time: 5.57s
+                      Time elapsed: 00:06:03
+                               ETA: 00:03:30
+
+################################################################################
+                      [1m Learning iteration 563/599 [0m                      
+
+                       Computation: 2765 steps/s (collection: 5.693s, learning 0.093s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 1476237.4979
+               Mean surrogate loss: -0.0004
+                 Mean entropy loss: -14.8429
+                       Mean reward: -12.29
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0827
+      Episode_Reward/ang_vel_xy_l2: -0.1108
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4882
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1040000
+                    Iteration time: 5.79s
+                      Time elapsed: 00:06:09
+                               ETA: 00:03:24
+
+################################################################################
+                      [1m Learning iteration 564/599 [0m                      
+
+                       Computation: 2910 steps/s (collection: 5.403s, learning 0.094s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 9565.1990
+               Mean surrogate loss: -0.0003
+                 Mean entropy loss: -14.8339
+                       Mean reward: -14.12
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0004
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0026
+      Episode_Reward/ang_vel_xy_l2: -0.0039
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3997
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1056000
+                    Iteration time: 5.50s
+                      Time elapsed: 00:06:15
+                               ETA: 00:03:18
+
+################################################################################
+                      [1m Learning iteration 565/599 [0m                      
+
+                       Computation: 2697 steps/s (collection: 5.838s, learning 0.094s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 5555.0563
+               Mean surrogate loss: -0.0004
+                 Mean entropy loss: -14.8206
+                       Mean reward: -16.16
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0045
+      Episode_Reward/ang_vel_xy_l2: -0.0089
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4103
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1072000
+                    Iteration time: 5.93s
+                      Time elapsed: 00:06:21
+                               ETA: 00:03:13
+
+################################################################################
+                      [1m Learning iteration 566/599 [0m                      
+
+                       Computation: 2851 steps/s (collection: 5.494s, learning 0.116s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 66059659539017.7969
+               Mean surrogate loss: -0.0009
+                 Mean entropy loss: -14.8113
+                       Mean reward: -16.84
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -11.8202
+      Episode_Reward/ang_vel_xy_l2: -37.3191
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -1726.5229
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1088000
+                    Iteration time: 5.61s
+                      Time elapsed: 00:06:26
+                               ETA: 00:03:07
+
+################################################################################
+                      [1m Learning iteration 567/599 [0m                      
+
+                       Computation: 2891 steps/s (collection: 5.435s, learning 0.098s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 561.8484
+               Mean surrogate loss: -0.0007
+                 Mean entropy loss: -14.7957
+                       Mean reward: -18.54
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0026
+      Episode_Reward/ang_vel_xy_l2: -0.0041
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3852
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1104000
+                    Iteration time: 5.53s
+                      Time elapsed: 00:06:32
+                               ETA: 00:03:01
+
+################################################################################
+                      [1m Learning iteration 568/599 [0m                      
+
+                       Computation: 2389 steps/s (collection: 6.519s, learning 0.176s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 4209.4138
+               Mean surrogate loss: 0.0005
+                 Mean entropy loss: -14.6988
+                       Mean reward: -15.99
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0030
+      Episode_Reward/ang_vel_xy_l2: -0.0051
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4196
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1120000
+                    Iteration time: 6.70s
+                      Time elapsed: 00:06:38
+                               ETA: 00:02:56
+
+################################################################################
+                      [1m Learning iteration 569/599 [0m                      
+
+                       Computation: 2292 steps/s (collection: 6.805s, learning 0.175s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 662.5507
+               Mean surrogate loss: 0.0019
+                 Mean entropy loss: -14.6301
+                       Mean reward: -14.15
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0028
+      Episode_Reward/ang_vel_xy_l2: -0.0048
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3840
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1136000
+                    Iteration time: 6.98s
+                      Time elapsed: 00:06:45
+                               ETA: 00:02:51
+
+################################################################################
+                      [1m Learning iteration 570/599 [0m                      
+
+                       Computation: 2267 steps/s (collection: 6.879s, learning 0.177s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 813.7505
+               Mean surrogate loss: 0.0008
+                 Mean entropy loss: -14.5461
+                       Mean reward: -12.56
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0027
+      Episode_Reward/ang_vel_xy_l2: -0.0044
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3761
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1152000
+                    Iteration time: 7.06s
+                      Time elapsed: 00:06:52
+                               ETA: 00:02:46
+
+################################################################################
+                      [1m Learning iteration 571/599 [0m                      
+
+                       Computation: 2298 steps/s (collection: 6.785s, learning 0.175s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 3497.5978
+               Mean surrogate loss: 0.0000
+                 Mean entropy loss: -14.5203
+                       Mean reward: -31.87
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0035
+      Episode_Reward/ang_vel_xy_l2: -0.0073
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4120
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1168000
+                    Iteration time: 6.96s
+                      Time elapsed: 00:06:59
+                               ETA: 00:02:41
+
+################################################################################
+                      [1m Learning iteration 572/599 [0m                      
+
+                       Computation: 2290 steps/s (collection: 6.811s, learning 0.175s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 1341.1290
+               Mean surrogate loss: -0.0008
+                 Mean entropy loss: -14.5175
+                       Mean reward: -13.32
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0030
+      Episode_Reward/ang_vel_xy_l2: -0.0056
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4112
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1184000
+                    Iteration time: 6.99s
+                      Time elapsed: 00:07:06
+                               ETA: 00:02:35
+
+################################################################################
+                      [1m Learning iteration 573/599 [0m                      
+
+                       Computation: 2377 steps/s (collection: 6.555s, learning 0.176s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 297020.6095
+               Mean surrogate loss: -0.0003
+                 Mean entropy loss: -14.4888
+                       Mean reward: -14.79
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0007
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0031
+      Episode_Reward/ang_vel_xy_l2: -0.0061
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.5503
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0312
+--------------------------------------------------------------------------------
+                   Total timesteps: 1200000
+                    Iteration time: 6.73s
+                      Time elapsed: 00:07:13
+                               ETA: 00:02:30
+
+################################################################################
+                      [1m Learning iteration 574/599 [0m                      
+
+                       Computation: 2456 steps/s (collection: 6.338s, learning 0.176s)
+             Mean action noise std: 0.08
+          Mean value_function loss: 1159.7763
+               Mean surrogate loss: -0.0003
+                 Mean entropy loss: -14.4760
+                       Mean reward: -15.77
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0043
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3989
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1216000
+                    Iteration time: 6.51s
+                      Time elapsed: 00:07:20
+                               ETA: 00:02:24
+
+################################################################################
+                      [1m Learning iteration 575/599 [0m                      
+
+                       Computation: 2444 steps/s (collection: 6.369s, learning 0.177s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 9425.5638
+               Mean surrogate loss: -0.0002
+                 Mean entropy loss: -14.3799
+                       Mean reward: -13.51
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0047
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4148
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1232000
+                    Iteration time: 6.55s
+                      Time elapsed: 00:07:26
+                               ETA: 00:02:19
+
+################################################################################
+                      [1m Learning iteration 576/599 [0m                      
+
+                       Computation: 2843 steps/s (collection: 5.546s, learning 0.082s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 85997.6077
+               Mean surrogate loss: 0.0006
+                 Mean entropy loss: -14.3385
+                       Mean reward: -18.51
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0074
+      Episode_Reward/ang_vel_xy_l2: -0.0321
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4448
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1248000
+                    Iteration time: 5.63s
+                      Time elapsed: 00:07:32
+                               ETA: 00:02:13
+
+################################################################################
+                      [1m Learning iteration 577/599 [0m                      
+
+                       Computation: 2549 steps/s (collection: 6.099s, learning 0.176s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 17460.3426
+               Mean surrogate loss: -0.0005
+                 Mean entropy loss: -14.3332
+                       Mean reward: -16.38
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0047
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4312
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1264000
+                    Iteration time: 6.28s
+                      Time elapsed: 00:07:38
+                               ETA: 00:02:07
+
+################################################################################
+                      [1m Learning iteration 578/599 [0m                      
+
+                       Computation: 2466 steps/s (collection: 6.312s, learning 0.175s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 2693.5312
+               Mean surrogate loss: 0.0002
+                 Mean entropy loss: -14.2911
+                       Mean reward: -14.75
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0030
+      Episode_Reward/ang_vel_xy_l2: -0.0076
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4202
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1280000
+                    Iteration time: 6.49s
+                      Time elapsed: 00:07:45
+                               ETA: 00:02:02
+
+################################################################################
+                      [1m Learning iteration 579/599 [0m                      
+
+                       Computation: 2471 steps/s (collection: 6.301s, learning 0.173s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 1339440.2927
+               Mean surrogate loss: -0.0010
+                 Mean entropy loss: -14.1941
+                       Mean reward: -13.07
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0206
+      Episode_Reward/ang_vel_xy_l2: -0.1732
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.5703
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1296000
+                    Iteration time: 6.47s
+                      Time elapsed: 00:07:51
+                               ETA: 00:01:56
+
+################################################################################
+                      [1m Learning iteration 580/599 [0m                      
+
+                       Computation: 2472 steps/s (collection: 6.294s, learning 0.176s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 9044.2293
+               Mean surrogate loss: -0.0007
+                 Mean entropy loss: -14.1829
+                       Mean reward: -15.20
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0041
+      Episode_Reward/ang_vel_xy_l2: -0.0106
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4286
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1312000
+                    Iteration time: 6.47s
+                      Time elapsed: 00:07:57
+                               ETA: 00:01:50
+
+################################################################################
+                      [1m Learning iteration 581/599 [0m                      
+
+                       Computation: 2471 steps/s (collection: 6.300s, learning 0.173s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 16706.4138
+               Mean surrogate loss: -0.0014
+                 Mean entropy loss: -14.1537
+                       Mean reward: -18.21
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0045
+      Episode_Reward/ang_vel_xy_l2: -0.0212
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4518
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1328000
+                    Iteration time: 6.47s
+                      Time elapsed: 00:08:04
+                               ETA: 00:01:45
+
+################################################################################
+                      [1m Learning iteration 582/599 [0m                      
+
+                       Computation: 2475 steps/s (collection: 6.289s, learning 0.176s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 5681.0092
+               Mean surrogate loss: -0.0013
+                 Mean entropy loss: -14.1388
+                       Mean reward: -15.52
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0040
+      Episode_Reward/ang_vel_xy_l2: -0.0142
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4223
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1344000
+                    Iteration time: 6.46s
+                      Time elapsed: 00:08:10
+                               ETA: 00:01:39
+
+################################################################################
+                      [1m Learning iteration 583/599 [0m                      
+
+                       Computation: 2480 steps/s (collection: 6.275s, learning 0.175s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 90123.4058
+               Mean surrogate loss: -0.0010
+                 Mean entropy loss: -14.1202
+                       Mean reward: -18.54
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0142
+      Episode_Reward/ang_vel_xy_l2: -0.0478
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4811
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1360000
+                    Iteration time: 6.45s
+                      Time elapsed: 00:08:17
+                               ETA: 00:01:33
+
+################################################################################
+                      [1m Learning iteration 584/599 [0m                      
+
+                       Computation: 2473 steps/s (collection: 6.296s, learning 0.173s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 38757700.7740
+               Mean surrogate loss: -0.0009
+                 Mean entropy loss: -14.0773
+                       Mean reward: -19.65
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0362
+      Episode_Reward/ang_vel_xy_l2: -0.5602
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -1.1975
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1376000
+                    Iteration time: 6.47s
+                      Time elapsed: 00:08:23
+                               ETA: 00:01:27
+
+################################################################################
+                      [1m Learning iteration 585/599 [0m                      
+
+                       Computation: 2478 steps/s (collection: 6.281s, learning 0.175s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 2820.7382
+               Mean surrogate loss: 0.0059
+                 Mean entropy loss: -14.0243
+                       Mean reward: -41.67
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0034
+      Episode_Reward/ang_vel_xy_l2: -0.0102
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3889
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1392000
+                    Iteration time: 6.46s
+                      Time elapsed: 00:08:30
+                               ETA: 00:01:22
+
+################################################################################
+                      [1m Learning iteration 586/599 [0m                      
+
+                       Computation: 2482 steps/s (collection: 6.272s, learning 0.174s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 5953.7187
+               Mean surrogate loss: -0.0011
+                 Mean entropy loss: -14.0208
+                       Mean reward: -14.87
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0047
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4092
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1408000
+                    Iteration time: 6.45s
+                      Time elapsed: 00:08:36
+                               ETA: 00:01:16
+
+################################################################################
+                      [1m Learning iteration 587/599 [0m                      
+
+                       Computation: 2479 steps/s (collection: 6.280s, learning 0.173s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 74681.6679
+               Mean surrogate loss: 0.0019
+                 Mean entropy loss: -14.0085
+                       Mean reward: -370.70
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0010
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0030
+      Episode_Reward/ang_vel_xy_l2: -0.0055
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4718
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0006
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0625
+--------------------------------------------------------------------------------
+                   Total timesteps: 1424000
+                    Iteration time: 6.45s
+                      Time elapsed: 00:08:43
+                               ETA: 00:01:10
+
+################################################################################
+                      [1m Learning iteration 588/599 [0m                      
+
+                       Computation: 2461 steps/s (collection: 6.324s, learning 0.175s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 191333476119.0213
+               Mean surrogate loss: 0.0001
+                 Mean entropy loss: -14.0009
+                       Mean reward: -13.96
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -9.9136
+      Episode_Reward/ang_vel_xy_l2: -32.5404
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -47.0447
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1440000
+                    Iteration time: 6.50s
+                      Time elapsed: 00:08:49
+                               ETA: 00:01:04
+
+################################################################################
+                      [1m Learning iteration 589/599 [0m                      
+
+                       Computation: 2454 steps/s (collection: 6.344s, learning 0.174s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 3376.0393
+               Mean surrogate loss: 0.0011
+                 Mean entropy loss: -13.9671
+                       Mean reward: -14.39
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0033
+      Episode_Reward/ang_vel_xy_l2: -0.0101
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3890
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1456000
+                    Iteration time: 6.52s
+                      Time elapsed: 00:08:56
+                               ETA: 00:00:58
+
+################################################################################
+                      [1m Learning iteration 590/599 [0m                      
+
+                       Computation: 2478 steps/s (collection: 6.282s, learning 0.173s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 685.6489
+               Mean surrogate loss: 0.0054
+                 Mean entropy loss: -13.9141
+                       Mean reward: -13.98
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0032
+      Episode_Reward/ang_vel_xy_l2: -0.0057
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3862
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1472000
+                    Iteration time: 6.46s
+                      Time elapsed: 00:09:02
+                               ETA: 00:00:53
+
+################################################################################
+                      [1m Learning iteration 591/599 [0m                      
+
+                       Computation: 2473 steps/s (collection: 6.294s, learning 0.174s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 41047.0506
+               Mean surrogate loss: -0.0001
+                 Mean entropy loss: -13.8959
+                       Mean reward: -21.87
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0044
+      Episode_Reward/ang_vel_xy_l2: -0.0131
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4480
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1488000
+                    Iteration time: 6.47s
+                      Time elapsed: 00:09:09
+                               ETA: 00:00:47
+
+################################################################################
+                      [1m Learning iteration 592/599 [0m                      
+
+                       Computation: 2471 steps/s (collection: 6.299s, learning 0.174s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 15009.9488
+               Mean surrogate loss: -0.0004
+                 Mean entropy loss: -13.8768
+                       Mean reward: -13.15
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0029
+      Episode_Reward/ang_vel_xy_l2: -0.0044
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.3992
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1504000
+                    Iteration time: 6.47s
+                      Time elapsed: 00:09:15
+                               ETA: 00:00:41
+
+################################################################################
+                      [1m Learning iteration 593/599 [0m                      
+
+                       Computation: 2473 steps/s (collection: 6.295s, learning 0.174s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 190923.0933
+               Mean surrogate loss: 0.0018
+                 Mean entropy loss: -13.8409
+                       Mean reward: -13.68
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0056
+      Episode_Reward/ang_vel_xy_l2: -0.0139
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.5147
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1520000
+                    Iteration time: 6.47s
+                      Time elapsed: 00:09:22
+                               ETA: 00:00:35
+
+################################################################################
+                      [1m Learning iteration 594/599 [0m                      
+
+                       Computation: 2478 steps/s (collection: 6.282s, learning 0.174s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 8221.8271
+               Mean surrogate loss: 0.0005
+                 Mean entropy loss: -13.8168
+                       Mean reward: -15.27
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0028
+      Episode_Reward/ang_vel_xy_l2: -0.0051
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4044
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1536000
+                    Iteration time: 6.46s
+                      Time elapsed: 00:09:28
+                               ETA: 00:00:29
+
+################################################################################
+                      [1m Learning iteration 595/599 [0m                      
+
+                       Computation: 2476 steps/s (collection: 6.280s, learning 0.181s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 1077992507896744.0000
+               Mean surrogate loss: -0.0001
+                 Mean entropy loss: -13.8017
+                       Mean reward: -15.68
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -89.8898
+      Episode_Reward/ang_vel_xy_l2: -251.7403
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -6404.2559
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1552000
+                    Iteration time: 6.46s
+                      Time elapsed: 00:09:34
+                               ETA: 00:00:23
+
+################################################################################
+                      [1m Learning iteration 596/599 [0m                      
+
+                       Computation: 2436 steps/s (collection: 6.317s, learning 0.250s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 7882.0210
+               Mean surrogate loss: 0.0074
+                 Mean entropy loss: -13.7118
+                       Mean reward: -14.39
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0044
+      Episode_Reward/ang_vel_xy_l2: -0.0129
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4209
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1568000
+                    Iteration time: 6.57s
+                      Time elapsed: 00:09:41
+                               ETA: 00:00:17
+
+################################################################################
+                      [1m Learning iteration 597/599 [0m                      
+
+                       Computation: 2462 steps/s (collection: 6.324s, learning 0.174s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 6763.7310
+               Mean surrogate loss: 0.0025
+                 Mean entropy loss: -13.6913
+                       Mean reward: -17.82
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0031
+      Episode_Reward/ang_vel_xy_l2: -0.0057
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4005
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1584000
+                    Iteration time: 6.50s
+                      Time elapsed: 00:09:48
+                               ETA: 00:00:11
+
+################################################################################
+                      [1m Learning iteration 598/599 [0m                      
+
+                       Computation: 2474 steps/s (collection: 6.291s, learning 0.174s)
+             Mean action noise std: 0.09
+          Mean value_function loss: 25942.1020
+               Mean surrogate loss: -0.0001
+                 Mean entropy loss: -13.6753
+                       Mean reward: -16.87
+               Mean episode length: 1.00
+Episode_Reward/track_lin_vel_xy_exp: 0.0003
+Episode_Reward/track_ang_vel_z_exp: 0.0000
+       Episode_Reward/lin_vel_z_l2: -0.0030
+      Episode_Reward/ang_vel_xy_l2: -0.0067
+     Episode_Reward/dof_torques_l2: -0.0000
+         Episode_Reward/dof_acc_l2: -0.4503
+     Episode_Reward/action_rate_l2: -0.0000
+Episode_Reward/flat_orientation_l2: -0.0000
+    Episode_Reward/foot_contact_l2: -0.0005
+     Episode_Reward/foot_force_var: 0.0000
+      Episode_Termination/time_out: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 1600000
+                    Iteration time: 6.46s
+                      Time elapsed: 00:09:54
+                               ETA: 00:00:05
+
+Training time: 601.73 seconds
+2026-02-08T16:33:14Z [90,471ms] [Warning] [omni.fabric.plugin] getAttributeCount called on non-existent path /World/envs/env_99/Robot/base_link/visuals/base_link
+2026-02-08T16:33:14Z [90,498ms] [Warning] [omni.fabric.plugin] getTypes called on non-existent path /World/envs/env_99/Robot/base_link/visuals/base_link
+[766.640s] Simulation App Shutting Down
